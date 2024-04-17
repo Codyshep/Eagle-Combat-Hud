@@ -1,0 +1,37 @@
+#healthBar {
+  position: fixed;
+  width: 200px;
+  height: 20px;
+  background-color: rgb(240, 0, 0);
+  border-radius: 5px;
+  overflow: hidden;
+  bottom: 5%;
+  left: 38%;
+  border: 2px solid black;
+}
+
+#armorBar {
+  position: fixed;
+  width: 200px;
+  height: 20px;
+  background-color: rgb(240, 0, 0);
+  border-radius: 5px;
+  overflow: hidden;
+  bottom: 5%;
+  right: 38%;
+  border: 2px solid black;
+}
+
+#healthFill {
+  height: 100%;
+  background: rgb(12, 219, 12); /* Change colors as needed */
+  transition: width 0.3s ease; /* Smooth transition animation */
+  bottom: 5%;
+}
+
+#armorFill {
+  height: 100%;
+  background: rgb(12, 95, 219); /* Change colors as needed */
+  transition: width 0.3s ease; /* Smooth transition animation */
+  bottom: 5%;
+}
